@@ -1,0 +1,1012 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/OLD_landing-page.css",
+			"settings":
+			{
+				"buffer_size": 2248,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n\n  <title>Landing Page - Start Bootstrap Theme</title>\n\n  <!-- Bootstrap core CSS -->\n  <link href=\"/css/OLD_bootstrap.css\" rel=\"stylesheet\">\n\n  <!-- Custom fonts for this template -->\n  <link href=\"css/OLD_all.min.css\" rel=\"stylesheet\">\n  <link href=\"OLD_css/simple-line-icons.css\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">\n\n  <!-- Custom styles for this template -->\n  <link href=\"OLD_css/landing-page.css\" rel=\"stylesheet\">\n\n</head>\n\n<body>\n\n  <!-- Navigation -->\n  <nav class=\"navbar navbar-light bg-light static-top\">\n    <div class=\"container\">\n      <a class=\"navbar-brand\" href=\"#\">Portfolio and Demonstrations</a>\n<!--       <a class=\"btn btn-primary\" href=\"#\">Sign In</a> -->\n    </div>\n  </nav>\n\n  <!-- Masthead -->\n  <header class=\"masthead text-white text-center\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-xl-9 mx-auto\">\n          <h1 class=\"mb-4\">Journey into Test Automation and RPA</h1>\n        </div>\n<!--         <div class=\"col-md-10 col-lg-8 col-xl-7 mx-auto\">\n          <form>\n            <div class=\"form-row\">\n              <div class=\"col-12 col-md-9 mb-2 mb-md-0\">\n                <input type=\"email\" class=\"form-control form-control-lg\" placeholder=\"Enter your email...\">\n              </div>\n              <div class=\"col-12 col-md-3\">\n                <button type=\"submit\" class=\"btn btn-block btn-lg btn-primary\">Sign up!</button>\n              </div>\n            </div>\n          </form>\n        </div> -->\n      </div>\n    </div>\n  </header>\n\n  <!-- Icons Grid -->\n  <section class=\"features-icons bg-light text-center\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-4\">\n          <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n            <div class=\"features-icons-icon d-flex\">\n              <i class=\"icon-screen-desktop m-auto text-primary\"></i>\n            </div>\n            <h3>UiPath</h3>\n            <p class=\"lead mb-0\">TBC</p>\n          </div>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n            <div class=\"features-icons-icon d-flex\">\n              <i class=\"icon-layers m-auto text-primary\"></i>\n            </div>\n            <h3>SOAPUI</h3>\n            <p class=\"lead mb-0\">TBC</p>\n          </div>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"features-icons-item mx-auto mb-0 mb-lg-3\">\n            <div class=\"features-icons-icon d-flex\">\n              <i class=\"icon-magnifier m-auto text-primary\"></i>\n            </div>\n            <h3>SQL</h3>\n            <p class=\"lead mb-0\">TBC</p>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"row-second\">\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-equalizer m-auto text-primary\"></i>\n              </div>\n              <h3>JMeter</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-wrench m-auto text-primary\"></i>\n              </div>\n              <h3>Java & Selenium</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-clock m-auto text-primary\"></i>\n              </div>\n              <h3>LoadRunner</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"row-second\">\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-grid m-auto text-primary\"></i>\n              </div>\n              <h3>UFT</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-cloud-download m-auto text-primary\"></i>\n              </div>\n              <h3>Cloud & VM</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n          <div class=\"col-lg-4\">\n            <div class=\"features-icons-item mx-auto mb-0 mb-lg-3\">\n              <div class=\"features-icons-icon d-flex\">\n                <i class=\"icon-globe m-auto text-primary\"></i>\n              </div>\n              <h3>Middleware</h3>\n              <p class=\"lead mb-0\">TBC</p>\n            </div>\n          </div>\n        </div>\n\n    </div>\n  </section>\n\n  \n  <!-- Image Showcases -->\n<!--   <section class=\"showcase\">\n    <div class=\"container-fluid p-0\">\n      <div class=\"row no-gutters\">\n\n        <div class=\"col-lg-6 order-lg-2 text-white showcase-img\" style=\"background-image: url('img/bg-showcase-1.jpg');\"></div>\n        <div class=\"col-lg-6 order-lg-1 my-auto showcase-text\">\n          <h2>Fully Responsive Design</h2>\n          <p class=\"lead mb-0\">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>\n        </div>\n      </div>\n      <div class=\"row no-gutters\">\n        <div class=\"col-lg-6 text-white showcase-img\" style=\"background-image: url('img/bg-showcase-2.jpg');\"></div>\n        <div class=\"col-lg-6 my-auto showcase-text\">\n          <h2>Updated For Bootstrap 4</h2>\n          <p class=\"lead mb-0\">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>\n        </div>\n      </div>\n      <div class=\"row no-gutters\">\n        <div class=\"col-lg-6 order-lg-2 text-white showcase-img\" style=\"background-image: url('img/bg-showcase-3.jpg');\"></div>\n        <div class=\"col-lg-6 order-lg-1 my-auto showcase-text\">\n          <h2>Easy to Use &amp; Customize</h2>\n          <p class=\"lead mb-0\">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>\n        </div>\n      </div>\n    </div>\n  </section> -->\n\n  <!-- Testimonials -->\n  <section class=\"testimonials text-center bg-light\">\n    <div class=\"container\">\n      <h2 class=\"mb-5\">Recently Added Projects</h2>\n      <div class=\"row\">\n        <div class=\"col-lg-4\">\n          <div class=\"testimonial-item mx-auto mb-5 mb-lg-0\">\n            <img class=\"img-fluid rounded-circle mb-3\" src=\"img/testimonials-1.jpg\" alt=\"\">\n            <h5>TBC</h5>\n            <p class=\"font-weight-light mb-0\">\"TBC\"</p>\n<!--             <h5>UiPath: SWIFT Message</h5> -->\n<!--             <p class=\"font-weight-light mb-0\">\"An Excel-driven SWIFT (ISO 15022) MT564 test message generation tool.\"</p> -->\n          </div>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"testimonial-item mx-auto mb-5 mb-lg-0\">\n            <img class=\"img-fluid rounded-circle mb-3\" src=\"img/testimonials-2.jpg\" alt=\"\">\n            <h5>TBC</h5>\n            <p class=\"font-weight-light mb-0\">\"TBC\"</p>\n          </div>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"testimonial-item mx-auto mb-5 mb-lg-0\">\n            <img class=\"img-fluid rounded-circle mb-3\" src=\"img/testimonials-3.jpg\" alt=\"\">\n            <h5>TBC</h5>\n            <p class=\"font-weight-light mb-0\">\"TBC\"</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n\n  <!-- Call to Action -->\n<!--   <section class=\"call-to-action text-white text-center\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-xl-9 mx-auto\">\n          <h2 class=\"mb-4\">Ready to get started? Sign up now!</h2>\n        </div>\n        <div class=\"col-md-10 col-lg-8 col-xl-7 mx-auto\">\n          <form>\n            <div class=\"form-row\">\n              <div class=\"col-12 col-md-9 mb-2 mb-md-0\">\n                <input type=\"email\" class=\"form-control form-control-lg\" placeholder=\"Enter your email...\">\n              </div>\n              <div class=\"col-12 col-md-3\">\n                <button type=\"submit\" class=\"btn btn-block btn-lg btn-primary\">Sign up!</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </section> -->\n\n\n  \n  <!-- Footer -->\n  <footer class=\"footer bg-light\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-6 h-100 text-center text-lg-left my-auto\">\n          <ul class=\"list-inline mb-2\">\n            <li class=\"list-inline-item\">\n              <a href=\"#\">About</a>\n            </li>\n            <li class=\"list-inline-item\">&sdot;</li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">Contact</a>\n            </li>\n            <li class=\"list-inline-item\">&sdot;</li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">Terms of Use</a>\n            </li>\n            <li class=\"list-inline-item\">&sdot;</li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">Privacy Policy</a>\n            </li>\n          </ul>\n          <p class=\"text-muted small mb-4 mb-lg-0\">&copy; Gavin Ribbans on GitHub Pages 2020  . All Rights Reserved.</p>\n        </div>\n        <div class=\"col-lg-6 h-100 text-center text-lg-right my-auto\">\n          <ul class=\"list-inline mb-0\">\n            <li class=\"list-inline-item mr-3\">\n              <a href=\"#\">\n                <i class=\"fab fa-facebook fa-2x fa-fw\"></i>\n              </a>\n            </li>\n            <li class=\"list-inline-item mr-3\">\n              <a href=\"#\">\n                <i class=\"fab fa-twitter-square fa-2x fa-fw\"></i>\n              </a>\n            </li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">\n                <i class=\"fab fa-instagram fa-2x fa-fw\"></i>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </footer>\n\n  <!-- Bootstrap core JavaScript -->\n  <script src=\"vendor/jquery/jquery.min.js\"></script>\n  <script src=\"vendor/bootstrap/js/bootstrap.bundle.min.js\"></script>\n\n</body>\n\n</html>\n",
+			"file": "OLD_index.html",
+			"file_size": 11284,
+			"file_write_time": 133541973166882054,
+			"settings":
+			{
+				"buffer_size": 10966,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "old"
+					},
+					"AwAAABkDAAAAAAAAGgMAAAAAAAAAAAAAGgMAAAAAAAAbAwAAAAAAAAAAAAAbAwAAAAAAABwDAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAZAwAAAAAAABkDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					3,
+					"hungry_backspace",
+					null,
+					"AwAAABsDAAAAAAAAGwMAAAAAAAABAAAAZBoDAAAAAAAAGgMAAAAAAAABAAAAbBkDAAAAAAAAGQMAAAAAAAABAAAAbw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcAwAAAAAAABwDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "OLD_"
+					},
+					"BAAAABkDAAAAAAAAGgMAAAAAAAAAAAAAGgMAAAAAAAAbAwAAAAAAAAAAAAAbAwAAAAAAABwDAAAAAAAAAAAAABwDAAAAAAAAHQMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAZAwAAAAAAABkDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					45,
+					1,
+					"right_delete",
+					null,
+					"AQAAAEkBAAAAAAAASQEAAAAAAAAQAAAAdmVuZG9yL2Jvb3RzdHJhcA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABJAQAAAAAAAFkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": "old"
+					},
+					"AwAAAE4BAAAAAAAATwEAAAAAAAAAAAAATwEAAAAAAABQAQAAAAAAAAAAAABQAQAAAAAAAFEBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOAQAAAAAAAE4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					54,
+					3,
+					"hungry_backspace",
+					null,
+					"AwAAAFABAAAAAAAAUAEAAAAAAAABAAAAZE8BAAAAAAAATwEAAAAAAAABAAAAbE4BAAAAAAAATgEAAAAAAAABAAAAbw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABRAQAAAAAAAFEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": "OLD"
+					},
+					"AwAAAE4BAAAAAAAATwEAAAAAAAAAAAAATwEAAAAAAABQAQAAAAAAAAAAAABQAQAAAAAAAFEBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOAQAAAAAAAE4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					57,
+					1,
+					"insert",
+					{
+						"characters": "_"
+					},
+					"AQAAAFEBAAAAAAAAUgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABRAQAAAAAAAFEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					99,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAKwBAAAAAAAArQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsAQAAAAAAAKwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					101,
+					1,
+					"insert",
+					{
+						"characters": "c"
+					},
+					"AQAAAK0BAAAAAAAArgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACtAQAAAAAAAK0BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					103,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAK4BAAAAAAAArwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACuAQAAAAAAAK4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAK8BAAAAAAAAsAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACvAQAAAAAAAK8BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					107,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAALABAAAAAAAAsQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACwAQAAAAAAALABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					110,
+					1,
+					"hungry_backspace",
+					null,
+					"AQAAALEBAAAAAAAAsQEAAAAAAAAXAAAAdmVuZG9yL2ZvbnRhd2Vzb21lLWZyZWU",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACxAQAAAAAAAMgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					112,
+					1,
+					"hungry_backspace",
+					null,
+					"AQAAALABAAAAAAAAsAEAAAAAAAABAAAALw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACxAQAAAAAAALEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					115,
+					1,
+					"hungry_backspace",
+					null,
+					"AQAAAKwBAAAAAAAArAEAAAAAAAABAAAALw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACtAQAAAAAAAK0BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					117,
+					3,
+					"right_delete",
+					null,
+					"AwAAAKwBAAAAAAAArAEAAAAAAAABAAAAY6wBAAAAAAAArAEAAAAAAAABAAAAc6wBAAAAAAAArAEAAAAAAAABAAAAcw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsAQAAAAAAAKwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					119,
+					1,
+					"right_delete",
+					null,
+					"AQAAAKwBAAAAAAAArAEAAAAAAAABAAAALw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsAQAAAAAAAKwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					123,
+					1,
+					"insert",
+					{
+						"characters": "o"
+					},
+					"AQAAALABAAAAAAAAsQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACwAQAAAAAAALABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": "ld_"
+					},
+					"AwAAALEBAAAAAAAAsgEAAAAAAAAAAAAAsgEAAAAAAACzAQAAAAAAAAAAAACzAQAAAAAAALQBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACxAQAAAAAAALEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					140,
+					1,
+					"insert",
+					{
+						"characters": "OLD"
+					},
+					"AwAAALABAAAAAAAAsQEAAAAAAAAAAAAAsQEAAAAAAACyAQAAAAAAAAAAAACyAQAAAAAAALMBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACwAQAAAAAAALABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					141,
+					3,
+					"right_delete",
+					null,
+					"AwAAALMBAAAAAAAAswEAAAAAAAABAAAAb7MBAAAAAAAAswEAAAAAAAABAAAAbLMBAAAAAAAAswEAAAAAAAABAAAAZA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACzAQAAAAAAALMBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					148,
+					1,
+					"hungry_backspace",
+					null,
+					"AQAAAOEBAAAAAAAA4QEAAAAAAAAZAAAAdmVuZG9yL3NpbXBsZS1saW5lLWljb25zLw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADhAQAAAAAAAPoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					150,
+					1,
+					"insert",
+					{
+						"characters": "OLD_"
+					},
+					"BAAAAOEBAAAAAAAA4gEAAAAAAAAAAAAA4gEAAAAAAADjAQAAAAAAAAAAAADjAQAAAAAAAOQBAAAAAAAAAAAAAOQBAAAAAAAA5QEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADhAQAAAAAAAOEBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "vendor/fontawesome-free/css/svg-with-js.css",
+			"settings":
+			{
+				"buffer_size": 8077,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"FIlMOVE",
+				"File: Move…"
+			],
+			[
+				"MOVE",
+				"File: Move…"
+			],
+			[
+				"RENAME",
+				"File: Rename"
+			],
+			[
+				"Git",
+				"Git: Gui"
+			],
+			[
+				"server",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"View",
+				"CommandsBrowser: View Documentation."
+			],
+			[
+				"Sesame: ",
+				"Sesame: Open"
+			],
+			[
+				"the",
+				"UI: Customize Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"type",
+				"Set Syntax: TypeScript"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 331.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/css",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor/bootstrap",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor/bootstrap/css",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor/fontawesome-free",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor/fontawesome-free/css",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/vendor/fontawesome-free/webfonts"
+	],
+	"file_history":
+	[
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/index.html",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/.travis.yml",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/.gitignore",
+		"/D/2 Areas/700 - Long-term projects/gribbans.github.io/gr-github-pages.sublime-project",
+		"/C/Users/Oscar/AppData/Roaming/Sublime Text/Packages/Git/Git.sublime-settings",
+		"/C/Users/Oscar/AppData/Roaming/Sublime Text/Packages/Groovy.sublime-package",
+		"/D/1 Projects/SublimeText practice/testtwo.md",
+		"/D/1 Projects/SublimeText practice/testone.md",
+		"/D/1 Projects/SublimeText practice/testhree.md",
+		"/C/Users/Oscar/AppData/Roaming/Sublime Text/Packages/JavaScript/TypeScript.sublime-syntax",
+		"/C/Users/Oscar/Desktop/Mrkdwn/Notable.lnk",
+		"/D/-- Programming/CODEBASE/Sublime/Python_TestProject/initialFile.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/OLD_landing-page.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_helper.box_height": 27,
+							"color_helper.color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+							"color_helper.refresh": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "OLD_index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										510,
+										511
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										480,
+										481
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_helper.box_height": 27,
+							"color_helper.color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+							"color_helper.refresh": true,
+							"git_gutter_is_enabled": true,
+							"show_line_column": "disabled",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vendor/fontawesome-free/css/svg-with-js.css",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8077,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8032,
+										8037
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										8024,
+										8024
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_EEEEEEFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4513,
+										4517
+									]
+								],
+								"scope": "col_EEEEEEFF"
+							},
+							"col_EEEEEEFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_EEEEEEFF_circle.png",
+								"regions":
+								[
+									[
+										4490,
+										4490
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF253AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2473,
+										2480
+									]
+								],
+								"scope": "col_FF253AFF"
+							},
+							"col_FF253AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF253AFF_circle.png",
+								"regions":
+								[
+									[
+										2453,
+										2453
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2581,
+										2585
+									],
+									[
+										7138,
+										7142
+									],
+									[
+										8069,
+										8073
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										2572,
+										2572
+									],
+									[
+										7129,
+										7129
+									],
+									[
+										8060,
+										8060
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3379,
+								3379
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3536,
+										3537
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3366,
+										3367
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_helper.box_height": 27,
+							"color_helper.color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?xi)\n(?:\n    \\b(?<![-#&$])(?:\n        color\\((?!\\s*-)|(?:hsla?|(?:ok)?(?:lch|lab)|hwb|rgba?)\\(\n) |\n\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])\\#)\n",
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1709737503.66,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"git_gutter_is_enabled": true,
+							"show_line_column": "disabled",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3160.66666667,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 45.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 361.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "gr-github-pages.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\2 Areas\\700 - Long-term projects\\gribbans.github.io\\index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,207 @@
+/*
+ ******************************
+ Basic styling (ignore me!)
+ ******************************
+*/
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,"Hiragino Kaku Gothic Pro W3",Meiryo,sans-serif;
+  background-color:#333;
+  color: #fff;
+  text-align: center;
+  a,
+  a:visited{
+    color:#ccc;
+    text-decoration:none;
+  }
+  p{
+    margin:0;
+  }
+}
+
+/*
+ ******************************
+ End of Basic styling
+ ******************************
+*/
+
+/* FLexbox wrapper */
+.flexbox{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 100vw;
+  
+&:hover{
+    img {
+      opacity:0.28;
+    }
+  }
+
+ /* Each flex item 33.33 is 3 column */
+  .item{
+    position:relative;
+    width: 33.33%;  
+    img{
+      width: 100%;
+      display: block;
+      transition:all .8s;
+    }
+    .title{
+      position:absolute;
+      top:48%;
+      left:0;
+      width:100%;
+      padding:0 3%;
+      font-size:30px;
+      text-shadow:0 0 8px rgba(0,0,0,0.42);
+    }
+    &:hover{
+      img{
+        opacity:1;
+      }
+    }
+  }
+}
+
+/* Mediaqueries */
+@media ( max-width : 860px ){
+
+    /* set to 2 column */
+  .flexbox{
+    height:220vw;
+    .item{
+      width:50%;
+    }
+  }
+}
+@media ( max-width : 667px ){
+
+    /* set to 1 column */
+  .flexbox{
+    height:auto;
+    .item{
+      width:100%;
+    }
+  }
+}
+
+/*
+ ******************************
+ End of FlexBox Masonary styling
+ ******************************
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ ******************************
+     background-color: rgba(0,213,255,1);font-family: 'poppins';position: relative;
+ ******************************
+*/
+
+.footer {
+    font-size: 18px;
+    width: 90%;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+  
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+  
+.footer-content {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+  
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+  
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+  
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.social-icons li:last-child {
+    margin-right: 0;
+}
+  
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.footer-bottom p {
+    margin: 0;
+}
+  
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+    .footer-menu{
+        text-align: left;
+    }
+    .footer-menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+}
+  
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}    

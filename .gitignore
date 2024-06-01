@@ -2,3 +2,8 @@ node_modules
 index.sublime-workspace
 SublimeTextWorkspace.sublime-workspace
 .vscode
+OLD_package-lock.json
+OLD_package.json
+OLD_index.html
+notes.SublimeTextWorkspace
+OLD_launch.json

@@ -1,9 +1,35 @@
+container {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-auto-rows: 700px;
+
+  }
+  .horizontal {
+  grid-column: span 2;
+  }
+  .vertical {
+  grid-row: span 2;
+  }
+  .big {
+  grid-column: span 2;
+  grid-row: span 2;
+  }
+ 
+  img {
+    max-width: 30%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 /*
  ******************************
  Basic styling (ignore me!)
  ******************************
 */
 
+/*
 *{
     box-sizing:border-box;
 }
@@ -22,13 +48,14 @@ body{
     margin:0;
   }
 }
-
+*/
 /*
  ******************************
  End of Basic styling
  ******************************
 */
 /* FLexbox wrapper */
+ /*
 .flexbox{
   display: -webkit-flex;
   display: flex;
@@ -43,8 +70,10 @@ body{
       opacity:0.82;
     }
   }
+  */
  /* Each flex item 33.33 is 3 column */
-  .item{
+  /* 
+ .item{
     position:relative;
     width: 33.33%;  
     img{
@@ -69,20 +98,26 @@ body{
     }
   }
 }
+ */
 /* Mediaqueries */
+ /*
 @media ( max-width : 860px ){
-
+ */
     /* set to 2 column */
-  .flexbox{
+  /*
+    .flexbox{
     height:220vw;
     .item{
       width:50%;
     }
   }
 }
-@media ( max-width : 667px ){
 
+@media ( max-width : 667px ){
+ */
     /* set to 1 column */
+/*
+
   .flexbox{
     height:auto;
     .item{
@@ -90,22 +125,26 @@ body{
     }
   }
 }
+*/
 /*
  ******************************
  End of FlexBox Masonary styling
  ******************************
 */
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+*/
 /*
  ******************************
      background-color: rgba(0,213,255,1);font-family: 'poppins';position: relative;
  ******************************
 */
+/*
 .body {
   background-color: rgb(22, 25, 25);
 }
@@ -184,3 +223,4 @@ body{
     position: absolute;
     bottom: 10px;
 }    
+*/

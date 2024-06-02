@@ -2,13 +2,13 @@ body {
     padding: 0px;
     margin: 0px;
     font-family:monospace; 
-    background: linear-gradient(to top, #e5dddf 52%, #5c5c77 48%);
+    background: linear-gradient(to top, #e5dddf 52%, #041b32 48%);
 
 }
 
 .wrapper {
-        --s: 72px; /* control the size*/
-        --c1: #5c5c777e;
+        --s: 90px; /* control the size*/
+        --c1: #041b32;
         --c2: #5c5c7700;
         
         --_g: #0000 90deg,var(--c1) 0;

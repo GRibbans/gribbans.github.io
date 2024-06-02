@@ -1,4 +1,48 @@
-container {
+body {
+  margin: 0;
+  padding: 0rem;
+  background: #141316;
+}
+img {
+  object-fit: scale-down;
+  overflow: clip;
+
+}
+
+
+.masonry-with-columns {
+  columns: 3 290px;
+  column-gap: 0.2rem;  
+  
+  div {
+    object-position: 20% 100%;
+    overflow: clip;
+    width: 500px;
+    background: #1f1d23;
+    color: white;
+    margin: 1px 1px 1px 1px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 2rem;
+  } 
+  @for $i from 1 through 36 { 
+    div:nth-child(#{$i}) {
+      $h: (random(400) + 100) + px;
+      height: $h;
+      line-height: $h;
+    }
+  }
+
+}
+
+
+/* container {
   display: grid;
   grid-auto-flow: dense;
   grid-gap: 5px;
@@ -21,7 +65,7 @@ container {
     max-width: 30%;
     height: auto;
     width: auto\9; /* ie8 */
-}
+
 
 /*
  ******************************

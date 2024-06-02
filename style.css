@@ -2,10 +2,30 @@ body {
     padding: 0px;
     margin: 0px;
     font-family:monospace; 
-    background: linear-gradient(180deg, rgb(166 76 175) 0, #3F51B5 100%)
+    background: linear-gradient(180deg, rgb(166 76 175) 0, rgb(63, 81, 181) 100%)
       /* background: linear-gradient(to top, #e5dddf 52%, #041b32 48%); */
 
 }
+
+
+/* Firefox */
+html {
+    scrollbar-color:  rgb(36,153, 157) rgb(2,20,40);
+    scrollbar-width: thin;
+  }
+  
+  /* WebKit and Chromiums */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(2,20,40);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(2,20,40);
+    border-radius: 5px;
+  }
+
 
 .wrapper {
         --s: 90px; /* control the size*/
@@ -22,7 +42,7 @@ body {
 
 .wrapper2 {
     background: rgb(46,46,51);
-    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0.5%, rgba(47,47,52,0) 2%); 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.586) 1%, rgba(47,47,52,0) 3%); 
 }
 
   .vertical-center {

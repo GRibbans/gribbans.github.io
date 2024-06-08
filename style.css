@@ -4,8 +4,23 @@ body {
     font-family:monospace; 
     background: linear-gradient(180deg, rgb(166 76 175) 0, rgb(63, 81, 181) 100%)
       /* background: linear-gradient(to top, #e5dddf 52%, #041b32 48%); */
-
 }
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(#65ff23, 0.15),
+      rgba(rgb(26, 252, 34), 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  }
 
 
 /* Firefox */

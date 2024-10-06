@@ -1,0 +1,124 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:monospace; 
+    background: linear-gradient(180deg, rgb(166 76 175) 0, rgb(63, 81, 181) 100%)
+      /* background: linear-gradient(to top, #e5dddf 52%, #041b32 48%); */
+
+}
+
+
+/* Firefox */
+html {
+    scrollbar-color:  rgb(36,153, 157) rgb(2,20,40);
+    scrollbar-width: thin;
+  }
+  
+  /* WebKit and Chromiums */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(2,20,40);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(2,20,40);
+    border-radius: 5px;
+  }
+
+
+.wrapper {
+        --s: 90px; /* control the size*/
+        --c1: #041b32;
+        --c2: #5c5c7700;
+        
+        --_g: #0000 90deg,var(--c1) 0;
+        background: 
+          conic-gradient(from 90deg at 2px 2px,var(--_g)),
+          conic-gradient(from 90deg at 1px 1px,var(--_g)),
+          var(--c2);
+        background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+      }
+
+.wrapper2 {
+    background: rgb(46,46,51);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.586) 1%, rgba(47,47,52,0) 3%); 
+}
+
+  .vertical-center {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+.island {
+    background-color: rgb(2,20,40);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: auto;
+    max-width: 600px;
+    max-height: 200px;
+    overflow: auto;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#000000)";/*IE 8*/
+    -moz-box-shadow: 0 10px 10px -4px rgba(0,0,0,0.7);/*FF 3.5+*/
+    -webkit-box-shadow: 0 10px 10px -4px rgba(0,0,0,0.7);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 10px 10px -4px rgba(0,0,0,0.7);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#000000); /*IE 5.5-7*/
+
+
+}
+
+.navigation {
+    background-color: rgb(222, 205, 22);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 20px;
+}
+
+.circle-container {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    padding-left: 0.5em;
+    margin: 0.1em;
+    overflow: clip;
+    text-align: left;
+}   
+
+h1 {
+    font-size: 1.1em;
+    color: rgb(217, 75, 75);
+}
+
+h2 {
+    font-size: 1.1em;
+    color: rgb(17, 248, 186);
+}
+
+p {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgba(111, 39, 254, 0.9);
+}
+a:visited {
+    color: rgba(127, 63, 255, 0.9);
+}
+a:hover {
+    color: rgb(299, 26, 113);
+}
+a:active {
+    color: rgb(234, 151, 43);
+}
+
+s {
+    color:rgb(217, 75, 75);   
+}
+

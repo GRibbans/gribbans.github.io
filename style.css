@@ -74,7 +74,7 @@ html {
     width: 50%;
     height: auto;
     max-width: 600px;
-    max-height: 200px;
+    max-height: 500px;
     overflow: auto;
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#000000)";/*IE 8*/
     -moz-box-shadow: 0 10px 10px -4px rgba(0,0,0,0.7);/*FF 3.5+*/
